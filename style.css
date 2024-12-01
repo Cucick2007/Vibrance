@@ -1,0 +1,477 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Italiana';
+    background-color: #ddd4e4;
+    justify-content: center;
+    align-items: center;
+    color: #ddd4e4;
+    height: 100vh;
+}
+
+/* Estilos para o header */
+header {
+    justify-content: space-between;
+    background-color: #e6e0e8;
+    align-items: center;
+    margin: 8px;
+    padding: 6px;
+    color: #000000;
+    display: flex;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 900;
+    margin-right: 1vh;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo {
+
+    /* Vibrance */
+    font-family: 'Italiana';
+    margin-left: 150px;
+    font-style: normal;
+    line-height: 57px;
+    font-weight: 600;
+    font-size: 60px;
+    display: flex;
+
+
+    color: #000000;
+}
+
+/* Barra de pesquisa */
+.search {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-right: 40px;
+    width: 1000px;
+}
+
+.search input {
+    transition: all ease-in-out 0.5s;
+    background-color: #f4f2f2;
+    font-family: inherit;
+    padding: 0.5rem 2rem;
+    border-radius: 60px;
+    margin-right: -2rem;
+    font-size: inherit;
+    color: #646464;
+    border: none;
+    width: 12em;
+}
+
+.search input:hover,
+.search input:focus {
+    box-shadow: 0 0 1em #00000020;
+}
+
+.search input:focus {
+    outline: none;
+    background-color: #f0eeee;
+}
+
+.search input::-webkit-input-placeholder {
+    font-weight: 100;
+    color: #ccc;
+}
+
+.search input:focus+.search button {
+    background-color: #f0eeee;
+}
+
+.search button {
+    background-color: #f4f2f2;
+    margin-top: 0.1em;
+    border: none;
+}
+
+.search button:hover {
+    cursor: pointer;
+}
+
+.search icon {
+    fill: #b4b4b4;
+    height: 1.3em;
+    width: 1.3em;
+}
+
+#produtos {
+    margin-right: 150px;
+}
+
+/* Estilo para o banner */
+.banner {
+    background-image: url(items/banner\ home\ \(promoções\).jpg);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 900px;
+    margin: 0 auto;
+    height: 350px;
+    width: 90%;
+
+    margin-top: 5vh;
+}
+
+#promo {
+    border: 2px;
+    color: #fff;
+    margin-left: 5vh;
+    padding-top: 14vw;
+    text-decoration: none;
+    justify-content: baseline;
+}
+
+header, main {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+
+    margin-bottom: 10vh;
+}
+
+
+.titulo {
+    color: #000;
+    display: flex;
+    padding: 0 29vh;
+    margin-top: 5vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.titulo1 {
+    color: #000;
+    display: flex;
+    padding: 0 29vh;
+    margin-top: 5vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.titulo2 {
+    color: #000;
+    display: flex;
+    padding: 0 29vh;
+    margin-top: 5vh;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #000;
+    font-size: 42px;
+    margin-right: 10px;
+}
+
+#linha {
+    height: 2px;
+    flex-grow: 1;
+    margin-right: 10px;
+    background-color: #000;
+}
+
+/* 1 */
+#file1 {
+    color: #000;
+    display: flex;
+    padding-left: 30vh;
+}
+
+#bts {
+    background-image: url(albuns/Proof-Album.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+#gidle {
+    background-image: url(albuns/I-Feel-album.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+#toxt {
+    background-image: url(albuns/TXT-album.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+#bp {
+    background-image: url(albuns/born-pink.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+
+/* 2 */
+#file2 {
+    color: #000;
+    display: flex;
+    padding-left: 30vh;
+}
+
+#stc {
+    background-image: url(img/StayC-Lightstick.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+#Eteam {
+    background-image: url(img/&Team-Lightstick.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+#vvz {
+    background-image: url(img/viviz-lightstick.png);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+#vxx {
+    background-image: url(img/vixx-lightstick.png);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+/* 3 */
+#file3 {
+    color: #000;
+    display: flex;
+    margin-top: 3vh;
+    padding-left: 30vh;
+    padding-right: 30vh;
+    justify-content: space-between;
+}
+
+#AOA {
+    background-image: url(artistas/AOA.png);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#apink {
+    background-image: url(artistas/apink.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#AESPA {
+    background-image: url(artistas/aespa.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#astro {
+    background-image: url(artistas/astro.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#ateez {
+    background-image: url(artistas/ateez.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#absix {
+    background-image: url(artistas/AB6IX.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+.pdt {
+    background-color: #d9cae68f;
+    border-radius: 9vh;
+    padding: 3vh;
+    height: 40vh;
+    width: 265px;
+}
+
+h3 {
+    font-size: 17px;
+}
+
+h4 {
+    font-family: "ZCOOL XiaoWei", sans-serif;
+    font-style: normal;
+    color: #0000006b;
+    font-size: 13px;
+}
+
+h5 {
+    font-family: "ZCOOL XiaoWei", sans-serif;
+    font-style: normal;
+    color: #0000003b;
+    font-size: 12px;
+}
+
+#infos {
+    margin-top: 1vh;
+    margin-left: 2vh;
+}
+
+#infos2 {
+    text-align: center;
+}
+
+#valor {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    text-align: end;
+    margin-right: 1vw;
+}
+
+#espaço {
+    margin-bottom: 5vw;
+}
+
+
+
+
+
+footer {
+    background-color: #c79ee94f;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    color: #000;
+    height: 50vh;
+}
+
+.fila {
+    font-family: "ZCOOL XiaoWei", sans-serif;
+    margin-top: 4vh;
+    display: flex;
+}
+
+#item1 {
+    font-family: "ZCOOL XiaoWei", sans-serif;
+    margin-top: 5vh;
+    margin-right: 30vh;
+}
+
+#item2 {
+    font-family: "ZCOOL XiaoWei", sans-serif;
+    margin-top: 5vh;
+    align-items: center;
+}
+
+#item3 {
+    font-family: "ZCOOL XiaoWei", sans-serif;
+    margin-top: 5vh;
+    margin-left: 30vh;
+}
+
+.item4 {
+    font-family: "ZCOOL XiaoWei", sans-serif;
+    text-align: center;
+    align-items: center;
+}

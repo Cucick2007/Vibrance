@@ -1,0 +1,570 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Italiana';
+  background-color: #ddd4e4;
+  justify-content: center;
+  align-items: center;
+  color: #ddd4e4;
+  height: 100vh;
+}
+
+/* Estilos para o header */
+header {
+  justify-content: space-between;
+  background-color: #e6e0e8;
+  align-items: center;
+  margin: 8px;
+  padding: 6px;
+  color: #000000;
+  display: flex;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 900;
+  margin-right: 1vh;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1em;
+  font-family: 'Arial', sans-serif;
+}
+
+header nav ul li a:hover {
+  color: #555;
+  /* Cor de hover */
+}
+
+.logo {
+
+  /* Vibrance */
+  font-family: 'Italiana';
+  margin-left: 150px;
+  font-style: normal;
+  line-height: 57px;
+  font-weight: 600;
+  font-size: 60px;
+  display: flex;
+
+  color: #000000;
+}
+
+.logo1 {
+
+  /* Vibrance */
+  font-family: 'Italiana', sans-serif;
+
+  font-style: normal;
+  line-height: 57px;
+  font-weight: 600;
+  font-size: 48px;
+  display: flex;
+  letter-spacing: 7px;
+
+
+  color: #000000;
+}
+
+.conteudo {
+  font-family: 'Classy Coiffeur', sans-serif;
+
+}
+
+/* Barra de pesquisa */
+.search {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  margin-right: 40px;
+  width: 1000px;
+}
+
+.search input {
+  transition: all ease-in-out 0.5s;
+  background-color: #f4f2f2;
+  font-family: inherit;
+  padding: 0.5rem 2rem;
+  border-radius: 60px;
+  margin-right: -2rem;
+  font-size: inherit;
+  color: #646464;
+  border: none;
+  width: 12em;
+}
+
+.search input:hover,
+.search input:focus {
+  box-shadow: 0 0 1em #00000020;
+}
+
+.search button:hover {
+  cursor: pointer;
+}
+
+#produtos {
+  margin-right: 150px;
+}
+
+
+.titulo {
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3vh;
+  padding: 0 29vh;
+}
+
+h1 {
+  font-size: 42px;
+  margin-right: 10px;
+}
+
+#linha {
+  background-color: #000;
+  height: 2px;
+  flex-grow: 1;
+}
+
+/* 1 */
+#file1 {
+  color: #000;
+  display: flex;
+  padding-left: 30vh;
+  padding-right: 30vh;
+}
+
+#bts {
+  background-image: url(albuns/Proof-Album.jpg);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  background-position: inherit;
+  background-size: cover;
+  border-radius: 15px;
+  max-width: 250px;
+  margin: 0 auto;
+  height: 300px;
+  width: 90%;
+}
+
+#gidle {
+  background-image: url(albuns/I-Feel-album.jpg);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  background-position: inherit;
+  background-size: cover;
+  border-radius: 15px;
+  max-width: 250px;
+  margin: 0 auto;
+  height: 300px;
+  width: 90%;
+}
+
+#toxt {
+  background-image: url(albuns/TXT-album.jpg);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  background-position: inherit;
+  background-size: cover;
+  border-radius: 15px;
+  max-width: 250px;
+  margin: 0 auto;
+  height: 300px;
+  width: 90%;
+}
+
+#bp {
+  background-image: url(albuns/born-pink.jpg);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  background-position: inherit;
+  background-size: cover;
+  border-radius: 15px;
+  max-width: 250px;
+  margin: 0 auto;
+  height: 300px;
+  width: 90%;
+}
+
+
+/* 2 */
+#file2 {
+  color: #000;
+  display: flex;
+  padding-left: 30vh;
+  padding-right: 30vh;
+}
+
+#svtn {
+  background-image: url(albuns/seventeen-album.jpg);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  background-position: inherit;
+  background-size: cover;
+  border-radius: 15px;
+  max-width: 250px;
+  margin: 0 auto;
+  height: 300px;
+  width: 90%;
+}
+
+#skz {
+  background-image: url(albuns/ATE-album.png);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  background-position: inherit;
+  background-size: cover;
+  border-radius: 15px;
+  max-width: 250px;
+  margin: 0 auto;
+  height: 300px;
+  width: 90%;
+}
+
+#lsfm {
+  background-image: url(albuns/lesserafim-album.jpg);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  background-position: inherit;
+  background-size: cover;
+  border-radius: 15px;
+  max-width: 250px;
+  margin: 0 auto;
+  height: 300px;
+  width: 90%;
+}
+
+#itzy {
+  background-image: url(albuns/Crazy-in-Love-album.png);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  background-position: inherit;
+  background-size: cover;
+  border-radius: 15px;
+  max-width: 250px;
+  margin: 0 auto;
+  height: 300px;
+  width: 90%;
+}
+
+
+/* 3 */
+#file3 {
+  color: #000;
+  display: flex;
+  padding-left: 30vh;
+  padding-right: 30vh;
+}
+
+#dct {
+  background-image: url(albuns/dreamcatcher-album.jpg);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  background-position: inherit;
+  background-size: cover;
+  border-radius: 15px;
+  max-width: 250px;
+  margin: 0 auto;
+  height: 300px;
+  width: 90%;
+}
+
+#bnd {
+  background-image: url(albuns/boynextdoor-album.jpg);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  background-position: inherit;
+  background-size: cover;
+  border-radius: 15px;
+  max-width: 250px;
+  margin: 0 auto;
+  height: 300px;
+  width: 90%;
+}
+
+#loona {
+  background-image: url(albuns/Yves-Loona-album.png);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  background-position: inherit;
+  background-size: cover;
+  border-radius: 15px;
+  max-width: 250px;
+  margin: 0 auto;
+  height: 300px;
+  width: 90%;
+}
+
+#evg {
+  background-image: url(albuns/Zombie-album.jpg);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  background-position: inherit;
+  background-size: cover;
+  border-radius: 15px;
+  max-width: 250px;
+  margin: 0 auto;
+  height: 300px;
+  width: 90%;
+}
+
+
+/* 4 */
+#file4 {
+  color: #000;
+  display: flex;
+  padding-left: 30vh;
+  padding-right: 30vh;
+}
+
+#trs {
+  background-image: url(albuns/treasure-album.jpg);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  background-position: inherit;
+  background-size: cover;
+  border-radius: 15px;
+  max-width: 250px;
+  margin: 0 auto;
+  height: 300px;
+  width: 90%;
+}
+
+#yn {
+  background-image: url(albuns/yeeun-album.jpg);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  background-position: inherit;
+  background-size: cover;
+  border-radius: 15px;
+  max-width: 250px;
+  margin: 0 auto;
+  height: 300px;
+  width: 90%;
+}
+
+#ch {
+  background-image: url(albuns/Killing-me.jpg);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  background-position: inherit;
+  background-size: cover;
+  border-radius: 15px;
+  max-width: 250px;
+  margin: 0 auto;
+  height: 300px;
+  width: 90%;
+}
+
+#iu {
+  background-image: url(albuns/Lilac-album.png);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  background-position: inherit;
+  background-size: cover;
+  border-radius: 15px;
+  max-width: 250px;
+  margin: 0 auto;
+  height: 300px;
+  width: 90%;
+}
+
+
+/* 5 */
+#file5 {
+  color: #000;
+  display: flex;
+  padding-left: 30vh;
+  padding-right: 30vh;
+}
+
+#nct {
+  background-image: url(albuns/nct-127-album.jpg);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  background-position: inherit;
+  background-size: cover;
+  border-radius: 15px;
+  max-width: 250px;
+  margin: 0 auto;
+  height: 300px;
+  width: 90%;
+}
+
+#pm {
+  background-image: url(albuns/2PM-album.jpg);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  background-position: inherit;
+  background-size: cover;
+  border-radius: 15px;
+  max-width: 250px;
+  margin: 0 auto;
+  height: 300px;
+  width: 90%;
+}
+
+#enh {
+  background-image: url(albuns/enhypen-album.jpg);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  background-position: inherit;
+  background-size: cover;
+  border-radius: 15px;
+  max-width: 250px;
+  margin: 0 auto;
+  height: 300px;
+  width: 90%;
+}
+
+#iEs {
+  background-image: url(albuns/irene&seulgi-album.png);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  background-position: inherit;
+  background-size: cover;
+  border-radius: 15px;
+  max-width: 250px;
+  margin: 0 auto;
+  height: 300px;
+  width: 90%;
+}
+
+
+/* 6 */
+#file6 {
+  color: #000;
+  display: flex;
+  padding-left: 30vh;
+  padding-right: 30vh;
+}
+
+#cb {
+  background-image: url(albuns/Cherry-Bullet-album.jpg);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  background-position: inherit;
+  background-size: cover;
+  border-radius: 15px;
+  max-width: 250px;
+  margin: 0 auto;
+  height: 300px;
+  width: 90%;
+}
+
+#bby {
+  background-image: url(albuns/bobby-album.jpg);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  background-position: inherit;
+  background-size: cover;
+  border-radius: 15px;
+  max-width: 250px;
+  margin: 0 auto;
+  height: 300px;
+  width: 90%;
+}
+
+#cew {
+  background-image: url(albuns/Cha-Eunwoo-album.jpg);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  background-position: inherit;
+  background-size: cover;
+  border-radius: 15px;
+  max-width: 250px;
+  margin: 0 auto;
+  height: 300px;
+  width: 90%;
+}
+
+#lmh {
+  background-image: url(albuns/Lee-Minhyuk-album.jpg);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  background-position: inherit;
+  background-size: cover;
+  border-radius: 15px;
+  max-width: 250px;
+  margin: 0 auto;
+  height: 300px;
+  width: 90%;
+}
+
+.pdt {
+  background-color: #d9cae68f;
+  border-radius: 9vh;
+  padding: 3vh;
+  height: 40vh;
+  width: 265px;
+}
+
+h3 {
+  font-size: 17px;
+}
+
+h4 {
+  font-family: "ZCOOL XiaoWei", sans-serif;
+  font-style: normal;
+  color: #0000006b;
+  font-size: 13px;
+}
+
+h5 {
+  font-family: "ZCOOL XiaoWei", sans-serif;
+  font-style: normal;
+  color: #0000003b;
+  font-size: 12px;
+}
+
+#infos {
+  margin-top: 1vh;
+  margin-left: 2vh;
+}
+
+#valor {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+  text-align: end;
+  margin-right: 1vw;
+}
+
+
+
+
+footer {
+  background-color: #c79ee94f;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  color: #000;
+  height: 50vh;
+}
+
+.fila {
+  font-family: "ZCOOL XiaoWei", sans-serif;
+  margin-top: 4vh;
+  display: flex;
+}
+
+#item1 {
+  font-family: "ZCOOL XiaoWei", sans-serif;
+  margin-top: 5vh;
+  margin-right: 30vh;
+}
+
+#item2 {
+  font-family: "ZCOOL XiaoWei", sans-serif;
+  margin-top: 5vh;
+  align-items: center;
+}
+
+#item3 {
+  font-family: "ZCOOL XiaoWei", sans-serif;
+  margin-top: 5vh;
+  margin-left: 30vh;
+}
+
+.item4 {
+  font-family: "ZCOOL XiaoWei", sans-serif;
+  text-align: center;
+  align-items: center;
+}

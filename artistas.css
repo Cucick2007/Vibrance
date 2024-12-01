@@ -1,0 +1,1133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Italiana';
+    background-color: #ddd4e4;
+    justify-content: center;
+    align-items: center;
+    color: #ddd4e4;
+    height: 100vh;
+}
+
+/* Estilos para o header */
+header {
+    justify-content: space-between;
+    background-color: #e6e0e8;
+    align-items: center;
+    margin: 8px;
+    padding: 6px;
+    color: #000000;
+    display: flex;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 900;
+    margin-right: 1vh;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1em;
+    font-family: 'Arial', sans-serif;
+}
+
+header nav ul li a:hover {
+    color: #555;
+    /* Cor de hover */
+}
+
+.logo {
+
+    /* Vibrance */
+    font-family: 'Italiana';
+    margin-left: 150px;
+    font-style: normal;
+    line-height: 57px;
+    font-weight: 600;
+    font-size: 60px;
+    display: flex;
+
+    color: #000000;
+}
+
+.logo1 {
+
+    /* Vibrance */
+    font-family: 'Italiana', sans-serif;
+
+    font-style: normal;
+    line-height: 57px;
+    font-weight: 600;
+    font-size: 48px;
+    display: flex;
+    letter-spacing: 7px;
+
+
+    color: #000000;
+}
+
+.conteudo {
+    font-family: 'Classy Coiffeur', sans-serif;
+
+}
+
+/* Barra de pesquisa */
+.search {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-right: 40px;
+    width: 1000px;
+}
+
+.search input {
+    transition: all ease-in-out 0.5s;
+    background-color: #f4f2f2;
+    font-family: inherit;
+    padding: 0.5rem 2rem;
+    border-radius: 60px;
+    margin-right: -2rem;
+    font-size: inherit;
+    color: #646464;
+    border: none;
+    width: 12em;
+}
+
+.search input:hover,
+.search input:focus {
+    box-shadow: 0 0 1em #00000020;
+}
+
+.search button:hover {
+    cursor: pointer;
+}
+
+#produtos {
+    margin-right: 150px;
+}
+
+
+
+main {
+    padding-top: 5vh;
+    padding-bottom: 70px;
+}
+
+.titulo {
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 29vh;
+}
+
+h1 {
+    font-size: 42px;
+    margin-right: 10px;
+}
+
+#linha {
+    background-color: #000;
+    height: 2px;
+    flex-grow: 1;
+}
+
+
+
+/* 1 */
+#file1 {
+    color: #000;
+    display: flex;
+    margin-top: 3vh;
+    padding-left: 30vh;
+    padding-right: 30vh;
+    justify-content: space-between;
+}
+
+#AOA {
+    background-image: url(artistas/AOA.png);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#apink {
+    background-image: url(artistas/apink.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#AESPA {
+    background-image: url(artistas/aespa.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#astro {
+    background-image: url(artistas/astro.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#ateez {
+    background-image: url(artistas/ateez.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#absix {
+    background-image: url(artistas/AB6IX.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+
+
+
+/* 2 */
+#file2 {
+    color: #000;
+    display: flex;
+    margin-top: 7vh;
+    padding-left: 30vh;
+    padding-right: 30vh;
+    justify-content: space-between;
+}
+
+#bangtan {
+    background-image: url(artistas/bts.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#btob {
+    background-image: url(artistas/btob.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#bigbang {
+    background-image: url(artistas/bigbang.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#blackpink {
+    background-image: url(artistas/blackpink.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#brown-eyed-girls {
+    background-image: url(artistas/brown-eyed-girls.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#bol4 {
+    background-image: url(artistas/bol4.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+
+
+
+/* 3 */
+#file3 {
+    color: #000;
+    display: flex;
+    margin-top: 7vh;
+    padding-left: 30vh;
+    padding-right: 30vh;
+    justify-content: space-between;
+}
+
+#clc {
+    background-image: url(artistas/clc.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#cravity {
+    background-image: url(artistas/cravity.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#chungha {
+    background-image: url(artistas/chungha.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#cix {
+    background-image: url(artistas/CIX.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#classy {
+    background-image: url(artistas/classy.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#cl {
+    background-image: url(artistas/CL.png);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+
+
+
+/* 4 */
+#file4 {
+    color: #000;
+    display: flex;
+    margin-top: 7vh;
+    padding-left: 30vh;
+    padding-right: 30vh;
+    justify-content: space-between;
+}
+
+#dreamcatcher {
+    background-image: url(artistas/dreamcatcher.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#day6 {
+    background-image: url(artistas/day6.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#dawn {
+    background-image: url(artistas/dawn.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#everglow {
+    background-image: url(artistas/everglow.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#exo {
+    background-image: url(artistas/exo.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#enhypen {
+    background-image: url(artistas/enhypen.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+
+
+
+/* 5 */
+#file5 {
+    color: #000;
+    display: flex;
+    margin-top: 7vh;
+    padding-left: 30vh;
+    padding-right: 30vh;
+    justify-content: space-between;
+}
+
+#exid {
+    background-image: url(artistas/exid.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#fx {
+    background-image: url(artistas/f\(x\).png);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#gfriend {
+    background-image: url(artistas/gfriend.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#gidle {
+    background-image: url(artistas/gidle.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#got7 {
+    background-image: url(artistas/got7.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#ITZY {
+    background-image: url(artistas/itzy.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+
+
+
+/* 6 */
+#file6 {
+    color: #000;
+    display: flex;
+    margin-top: 7vh;
+    padding-left: 30vh;
+    padding-right: 30vh;
+    justify-content: space-between;
+}
+
+#izone {
+    background-image: url(artistas/izone.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#iKON {
+    background-image: url(artistas/ikon.png);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#jin {
+    background-image: url(artistas/jin.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#jhope {
+    background-image: url(artistas/jhope.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#jm {
+    background-image: url(artistas/jimin.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#jk {
+    background-image: url(artistas/jk.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+
+
+
+/* 7 */
+#file7 {
+    color: #000;
+    display: flex;
+    margin-top: 7vh;
+    padding-left: 30vh;
+    padding-right: 30vh;
+    justify-content: space-between;
+}
+
+#kard {
+    background-image: url(artistas/kard.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#loona {
+    background-image: url(artistas/loona.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#mamamoo {
+    background-image: url(artistas/mamamoo.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#monstax {
+    background-image: url(artistas/monstax.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#nj {
+    background-image: url(artistas/namjoon.png);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#nmixx {
+    background-image: url(artistas/nmixx.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+
+
+
+/* 8 */
+#file8 {
+    color: #000;
+    display: flex;
+    margin-top: 7vh;
+    padding-left: 30vh;
+    padding-right: 30vh;
+    justify-content: space-between;
+}
+
+#nuest {
+    background-image: url(artistas/nuest.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#oneus {
+    background-image: url(artistas/oneus.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#pixy {
+    background-image: url(artistas/pixy.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#pentagon {
+    background-image: url(artistas/pentagon.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#p1harmony {
+    background-image: url(artistas/p1harmony.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#red-velvet {
+    background-image: url(artistas/red-velvet.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+
+
+
+/* 9 */
+#file9 {
+    color: #000;
+    display: flex;
+    margin-top: 7vh;
+    padding-left: 30vh;
+    padding-right: 30vh;
+    justify-content: space-between;
+}
+
+#rocket-punch {
+    background-image: url(artistas/rocket-punch.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#StayC {
+    background-image: url(artistas/stayc.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#sistar {
+    background-image: url(artistas/sistar.png);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#seventeen {
+    background-image: url(artistas/seventeen.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#stray-kids {
+    background-image: url(artistas/stray-kids.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#twice {
+    background-image: url(artistas/twice.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+
+
+
+/* 10 */
+#file10 {
+    color: #000;
+    display: flex;
+    margin-top: 7vh;
+    padding-left: 30vh;
+    padding-right: 30vh;
+    justify-content: space-between;
+}
+
+#txt {
+    background-image: url(artistas/txt.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#treasure {
+    background-image: url(artistas/treasure.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#victon {
+    background-image: url(artistas/victon.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#viviz {
+    background-image: url(artistas/viviz.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#wonder-girls {
+    background-image: url(artistas/wonder-girls.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#wanna-one {
+    background-image: url(artistas/wanna-one.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+
+
+
+/* 11 */
+#file11 {
+    color: #000;
+    display: flex;
+    margin-top: 7vh;
+    padding-left: 30vh;
+    padding-right: 30vh;
+    justify-content: space-between;
+}
+
+#xdinary-heroes {
+    background-image: url(artistas/xdinary-heroes.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#yena {
+    background-image: url(artistas/yena.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#zb1 {
+    background-image: url(artistas/ZB1.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#ne {
+    background-image: url(artistas/2NE1.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#pm {
+    background-image: url(artistas/2PM.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#quatro-minutos {
+    background-image: url(artistas/4minute.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 150px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#infos {
+    text-align: center;
+}
+
+
+
+footer {
+    background-color: #c79ee94f;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    color: #000;
+    height: 50vh;
+}
+
+.fila {
+    font-family: "ZCOOL XiaoWei", sans-serif;
+    margin-top: 4vh;
+    display: flex;
+}
+
+#item1 {
+    font-family: "ZCOOL XiaoWei", sans-serif;
+    margin-top: 5vh;
+    margin-right: 30vh;
+}
+
+#item2 {
+    font-family: "ZCOOL XiaoWei", sans-serif;
+    margin-top: 5vh;
+    align-items: center;
+}
+
+#item3 {
+    font-family: "ZCOOL XiaoWei", sans-serif;
+    margin-top: 5vh;
+    margin-left: 30vh;
+}
+
+.item4 {
+    font-family: "ZCOOL XiaoWei", sans-serif;
+    text-align: center;
+    align-items: center;
+}

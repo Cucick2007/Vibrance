@@ -1,0 +1,560 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Italiana';
+    background-color: #ddd4e4;
+    justify-content: center;
+    align-items: center;
+    color: #ddd4e4;
+    height: 100vh;
+}
+
+/* Estilos para o header */
+header {
+    justify-content: space-between;
+    background-color: #e6e0e8;
+    align-items: center;
+    margin: 8px;
+    padding: 6px;
+    color: #000000;
+    display: flex;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 900;
+    margin-right: 1vh;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo {
+
+    /* Vibrance */
+    font-family: 'Italiana';
+    margin-left: 150px;
+    font-style: normal;
+    line-height: 57px;
+    font-weight: 600;
+    font-size: 60px;
+    display: flex;
+
+
+    color: #000000;
+}
+
+/* Barra de pesquisa */
+.search {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-right: 40px;
+    width: 1000px;
+}
+
+.search input {
+    transition: all ease-in-out 0.5s;
+    background-color: #f4f2f2;
+    font-family: inherit;
+    padding: 0.5rem 2rem;
+    border-radius: 60px;
+    margin-right: -2rem;
+    font-size: inherit;
+    color: #646464;
+    border: none;
+    width: 12em;
+}
+
+.search input:hover,
+.search input:focus {
+    box-shadow: 0 0 1em #00000020;
+}
+
+.search input:focus {
+    outline: none;
+    background-color: #f0eeee;
+}
+
+.search input::-webkit-input-placeholder {
+    font-weight: 100;
+    color: #ccc;
+}
+
+.search input:focus.search button {
+    background-color: #f0eeee;
+}
+
+.search button {
+    background-color: #f4f2f2;
+    margin-top: 0.1em;
+    border: none;
+}
+
+.search button:hover {
+    cursor: pointer;
+}
+
+.search icon {
+    fill: #b4b4b4;
+    height: 1.3em;
+    width: 1.3em;
+}
+
+#produtos {
+    margin-right: 150px;
+}
+
+
+
+main {
+    padding-top: 25px;
+    padding-bottom: 70px;
+}
+
+.titulo {
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 29vh;
+}
+
+h1 {
+    font-size: 42px;
+    margin-right: 10px;
+}
+
+#linha {
+    background-color: #000;
+    height: 2px;
+    flex-grow: 1;
+}
+
+
+/* 1 */
+#file1 {
+    color: #000;
+    display: flex;
+    padding-left: 30vh;
+}
+
+#stc {
+    background-image: url(img/StayC-Lightstick.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+#Eteam {
+    background-image: url(img/&Team-Lightstick.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+#vvz {
+    background-image: url(img/viviz-lightstick.png);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+#vxx {
+    background-image: url(img/vixx-lightstick.png);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+
+/* 2 */
+#file2 {
+    color: #000;
+    display: flex;
+    padding-left: 30vh;
+    padding-right: 30vh;
+}
+
+#njs {
+    background-image: url(img/nwjs-lightstick.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+#oneus {
+    background-image: url(img/Oneus-Lightstick.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+#artmis {
+    background-image: url(img/Artmis-Lightstick.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+#ikon {
+    background-image: url(img/IKON-Lightstick.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+
+/* 3 */
+#file3 {
+    color: #000;
+    display: flex;
+    padding-left: 30vh;
+    padding-right: 30vh;
+}
+
+#vct {
+    background-image: url(img/victon-lightstick.png);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+#loo {
+    background-image: url(img/LOONA-Lightstick.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+#txt {
+    background-image: url(img/txt-lightstick.png);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+#aespa {
+    background-image: url(img/aespa-lightstick.png);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+
+/* 4 */
+#file4 {
+    color: #000;
+    display: flex;
+    padding-left: 30vh;
+    padding-right: 30vh;
+}
+
+#svt {
+    background-image: url(img/seventeen-Lightstick.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+#ive {
+    background-image: url(img/IVE-Lighststick.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+#tbz {
+    background-image: url(img/the-boyz-lightstick.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+#nmixx {
+    background-image: url(img/nmixx-Lightstick.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+
+/* 5 */
+#file5 {
+    color: #000;
+    display: flex;
+    padding-left: 30vh;
+    padding-right: 30vh;
+}
+
+#cblt {
+    background-image: url(img/Cherry-Bullet-Lightstick.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+#zb1 {
+    background-image: url(img/ZeroBaseOne-lightstick.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+#snm {
+    background-image: url(img/sunmi-lightstick.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+#lsf {
+    background-image: url(img/lesserafim-lightstick.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+
+/* 6 */
+#file6 {
+    color: #000;
+    display: flex;
+    padding-left: 30vh;
+    padding-right: 30vh;
+}
+
+#lsmbl {
+    background-image: url(img/loossemble-lightstick.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+#ptg {
+    background-image: url(img/pentagon-lightstick.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+#winner {
+    background-image: url(img/Winner-Lightstick.jpg);
+    box-shadow: 0px 0px 30px 6px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+#gfriend {
+    background-image: url(img/gfriend-lightstick.jpg);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    background-position: inherit;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+
+.pdt {
+    background-color: #d9cae68f;
+    border-radius: 9vh;
+    padding: 3vh;
+    height: 40vh;
+    width: 265px;
+}
+
+h3 {
+    font-size: 17px;
+}
+
+h4 {
+    font-family: "ZCOOL XiaoWei", sans-serif;
+    font-style: normal;
+    color: #0000006b;
+    font-size: 13px;
+}
+
+h5 {
+    font-family: "ZCOOL XiaoWei", sans-serif;
+    font-style: normal;
+    color: #0000003b;
+    font-size: 12px;
+}
+
+#infos {
+    margin-top: 1vh;
+    margin-left: 2vh;
+}
+
+#valor {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    text-align: end;
+    margin-right: 1vw;
+}
+
+
+
+footer {
+    background-color: #c79ee94f;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    color: #000;
+    height: 50vh;
+}
+
+.fila {
+    font-family: "ZCOOL XiaoWei", sans-serif;
+    margin-top: 4vh;
+    display: flex;
+}
+
+#item1 {
+    font-family: "ZCOOL XiaoWei", sans-serif;
+    margin-top: 5vh;
+    margin-right: 30vh;
+}
+
+#item2 {
+    font-family: "ZCOOL XiaoWei", sans-serif;
+    margin-top: 5vh;
+    align-items: center;
+}
+
+#item3 {
+    font-family: "ZCOOL XiaoWei", sans-serif;
+    margin-top: 5vh;
+    margin-left: 30vh;
+}
+
+.item4 {
+    font-family: "ZCOOL XiaoWei", sans-serif;
+    text-align: center;
+    align-items: center;
+}

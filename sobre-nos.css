@@ -1,0 +1,205 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Italiana';
+  background-color: #ddd4e4;
+  justify-content: center;
+  align-items: center;
+  color: #ddd4e4;
+  height: 100vh;
+}
+
+/* Estilos para o header */
+header {
+  justify-content: space-between;
+  background-color: #e6e0e8;
+  align-items: center;
+  margin: 8px;
+  padding: 6px;
+  color: #000000;
+  display: flex;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 900;
+  margin-right: 1vh;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.logo {
+
+  /* Vibrance */
+  font-family: 'Italiana';
+  margin-left: 150px;
+  font-style: normal;
+  line-height: 57px;
+  font-weight: 600;
+  font-size: 60px;
+  display: flex;
+
+
+  color: #000000;
+}
+
+/* Barra de pesquisa */
+.search {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  margin-right: 40px;
+  width: 1000px;
+}
+
+.search input {
+  transition: all ease-in-out 0.5s;
+  background-color: #f4f2f2;
+  font-family: inherit;
+  padding: 0.5rem 2rem;
+  border-radius: 60px;
+  margin-right: -2rem;
+  font-size: inherit;
+  color: #646464;
+  border: none;
+  width: 12em;
+}
+
+.search input:hover,
+.search input:focus {
+  box-shadow: 0 0 1em #00000020;
+}
+
+.search input:focus {
+  outline: none;
+  background-color: #f0eeee;
+}
+
+.search input::-webkit-input-placeholder {
+  font-weight: 100;
+  color: #ccc;
+}
+
+.search input:focus+.search button {
+  background-color: #f0eeee;
+}
+
+.search button {
+  background-color: #f4f2f2;
+  margin-top: 0.1em;
+  border: none;
+}
+
+.search button:hover {
+  cursor: pointer;
+}
+
+.search icon {
+  fill: #b4b4b4;
+  height: 1.3em;
+  width: 1.3em;
+}
+
+#produtos {
+  margin-right: 150px;
+}
+
+/* Estilo para o banner */
+.banner {
+  background-image: url(items/banner\ sobre\ nos\ 2.jpg);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  background-position: inherit;
+  background-size: cover;
+  border-radius: 15px;
+  max-width: 900px;
+  margin: 0 auto;
+  height: 250px;
+  width: 90%;
+}
+
+header, main {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+#p {
+  margin: 20px auto;
+  color: #000000;
+  max-width: 900px;
+  text-align: justify;
+  width: 90%;
+}
+
+.logo2 {
+  font-size: 64px;
+  font-style: normal;
+  letter-spacing: 18px;
+}
+
+.texto {
+  font-family: "ZCOOL XiaoWei", sans-serif;
+  font-style: normal;
+  color: #0000009c;
+  font-size: 15px;
+}
+
+main, footer {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  justify-content: space-between;
+  background-color: #c79ee93f;
+  align-items: center;
+  padding: 10px 20px;
+  display: flex;
+}
+
+fieldset {
+  color: #000000;
+  border-radius: 25px;
+  background-color: #DBC6EB;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+
+  width: 250px;
+
+  justify-content: center;
+  align-items: center;
+  display: block;
+  border: none;
+}
+
+#pcl {
+  padding-top: 20px;
+  padding-left: 73px;
+}
+
+#pcpl {
+  padding-left: 93px;
+}
+
+#pp {
+  padding: 35px 30px;
+}
+
+h3 {
+  align-items: center;
+  text-align: center;
+}
